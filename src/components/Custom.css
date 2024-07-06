@@ -1,0 +1,23 @@
+.form-floating{
+    position: relative;
+}
+.bi{
+    position: absolute;
+    top: calc(30%);
+    left: 1.25rem;
+    font-size:large;
+    z-index: 3;
+}
+.bi-envelope-fill{
+    top: calc(20%);
+}
+.form-floating label ,.form-floating .form-control{
+    left: .5rem;
+    padding-left: 2.5rem;
+}
+#studentheading{
+    color: #3e8383;
+}
+#forgotHeading{
+    color: darkblue;
+}
