@@ -13,16 +13,16 @@ export default function StudentLogin() {
         <div>
             <form>
                 <div className='row align-items-center justify-content-center px-5'>
-                <h3 class="form-group col-10 col-lg-6" id='studentheading'>Login to Student Portal</h3>
+                <h3 className="form-group col-10 col-lg-6" id='studentheading'>Login to Student Portal</h3>
                 <div className="form-group form-floating col-10 col-lg-8 my-4">
-                    <i className="bi bi-envelope-fill bi-lg"></i>
+                    <i className="bi bi-envelope-fill bi-lg" id='iconsEnvelope'></i>
                     <input type="email" className="form-control"id='UserEmail'placeholder="Enter Email" required/>                    
                     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                     <label htmlFor="UserEmail">Enter Email</label>
 
                 </div>
                 <div className="form-group form-floating mb-3 col-lg-8 col-10">
-                    <i class="bi bi-key-fill"></i>
+                    <i className="bi bi-key-fill" id='icons'></i>
                     <input type="password" className="form-control " id="UserPassword"placeholder="Password" required/>
                     <label htmlFor="UserPassword">Password</label>
                 </div>
