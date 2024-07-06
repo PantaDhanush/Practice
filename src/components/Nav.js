@@ -5,7 +5,7 @@ export default function Nav(props) {
     <nav className="navbar navbar-expand-sm bg-dark navbar-dark shadow">
         <div className="container-fluid ">
         <Link to="/" className="navbar-brand" >
-            <img src={logo} alt="Logo" style={{height:70}} className="rounded-pill"/>
+            <img src={logo} alt="Logo" style={{height:60}} className="rounded-pill"/>
             </Link>
         </div>
     </nav>

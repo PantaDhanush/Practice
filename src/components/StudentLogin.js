@@ -9,7 +9,7 @@ export default function StudentLogin() {
       <div className='col-12 col-lg-6 d-flex align-items-end  align-items-lg-center justify-content-center'>
             <img src={logo} alt="Logo" style={{width:230}} className="rounded-pill"/>
       </div>
-      <div className='col-10 col-lg-6 mt-4 pt-4 d-flex align-items-lg-center align-items-start justify-content-center'>
+      <div className='col-10 col-lg-6 mt-4 pt-4 d-flex align-items-lg-center align-items-start justify-content-center  shadow rounded-5'>
         <div>
             <form>
                 <div className='row align-items-center justify-content-center px-5'>
