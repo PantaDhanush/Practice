@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 export default function HomePage() {
   return (
     <div className="container-fluid mt-3" style={{height:"80vh"}}>
-            <h1 className='text-center'>Unlock Your Future with MERNSCHOOL</h1>
-            <p className='text-center display-6 fw-normal'>At MERNSCHOOL, we empower aspiring developers with cutting-edge skills in MongoDB, Express.js, React, and Node.js. </p>
+        <h1 className='text-center'>Unlock Your Future with MERNSCHOOL</h1>
+        <p className='text-center display-6 fw-normal'>At MERNSCHOOL, we empower aspiring developers with cutting-edge skills in MongoDB, Express.js, React, and Node.js. </p>
         <div className="row justify-content-around">
-            <div className="col-lg-3 col-10 p-3 shadow rounded-3">
+            <div className="col-lg-3 col-7 p-3 shadow rounded-3">
                 <div className='d-flex'>
                     <div className='flex-fill align-items-lg-center justify-content-center'>
                         <img src={parentLogo} alt="Logo" style={{width:70}} className="rounded-pill"/>
@@ -24,7 +24,7 @@ export default function HomePage() {
                     </div>
                 </div>
             </div>
-            <div className="col-lg-3 col-10 p-3 shadow rounded-3">
+            <div className="col-lg-3 col-7 p-3 shadow rounded-3">
                 <div className='d-flex'>
                         <div className='flex-fill align-items-lg-center justify-content-center'>
                             <img src={studentLogo} alt="Logo" style={{width:70}} className="rounded-pill"/>
@@ -39,7 +39,7 @@ export default function HomePage() {
                         </div>
                 </div>
             </div>
-            <div className="col-lg-3  col-10 p-3 shadow rounded-3">
+            <div className="col-lg-3  col-7 p-3 shadow rounded-3">
             <div className='d-flex'>
                     <div className='flex-fill align-items-lg-center justify-content-center'>
                         <img src={employeeLogo} alt="Logo" style={{width:70}} className="rounded-pill"/>
@@ -54,6 +54,26 @@ export default function HomePage() {
                     </div>
                     </div>
             </div>
+        </div>
+        <div className='container mt-5'>
+        <ul class="list-group">
+            <li class="list-group-item active">
+            <i class="bi bi-lightning"></i>
+               <strong>Curriculum:</strong> A MERN school typically offers a curriculum focused on teaching MongoDB, Express.js, React, and Node.js, ensuring students gain practical experience with each component of the stack.
+            </li>
+            <li class="list-group-item">
+                <i class="bi bi-lightning"></i>
+                <strong>Project-Based Learning:</strong>Students in a MERN school often engage in project-based learning, building real-world applications to apply their skills and gain hands-on experience.
+            </li>
+            <li class="list-group-item">
+                <i class="bi bi-lightning"></i>
+                <strong>Experienced Instructors:</strong>MERN schools often employ instructors who are industry professionals with real-world experience, providing students with insights into best practices and current trends in full-stack development.
+            </li>
+            <li class="list-group-item">
+                <i class="bi bi-lightning"></i>
+                <strong>Career Support:</strong>Many MERN schools offer career support services, including resume building, interview preparation, and job placement assistance, to help students transition into the workforce as full-stack developers.
+            </li>
+        </ul>
         </div>
     </div>
   )
