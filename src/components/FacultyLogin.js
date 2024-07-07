@@ -2,12 +2,12 @@ import React from 'react'
 import logo from "./logo.jpeg";
 import { Link, useNavigate } from "react-router-dom";
 import "./Custom.css";
-export default function StudentLogin() {
+export default function FaultyLogin() {
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/student-home");
+    navigate("/faculty-home");
   };
 
   return (
@@ -20,7 +20,7 @@ export default function StudentLogin() {
         <div>
             <form>
                 <div className='row align-items-center justify-content-center px-5'>
-                <h3 className="form-group col-10 col-lg-6" id='studentheading'>Login to Student Portal</h3>
+                <h3 className="form-group col-10 col-lg-6" id='facultyheading'>Login to Faculty Portal</h3>
                 <div className="form-group form-floating col-10 col-lg-8 my-4">
                     <i className="bi bi-envelope-fill bi-lg" id='iconsEnvelope'></i>
                     <input type="email" className="form-control"id='UserEmail'placeholder="Enter Email" required/>                    
@@ -34,9 +34,9 @@ export default function StudentLogin() {
                     <label htmlFor="UserPassword">Password</label>
                 </div>
                     <div className="form-group mb-3 col-lg-8 col-10 d-flex justify-content-end">
-                        <Link to="/forgot-password">Forgot Password?</Link>
+                        <Link to="/faculty-forgot-password">Forgot Password?</Link>
                     </div>
-                      <button type="submit" className="btn btn-info col-lg-8 col-10" onClick={handleSubmit} id='PortalLogIn'>Log in</button>
+                <button type="submit" className="btn btn-primary col-lg-8 col-10" onClick={handleSubmit} id='PortalLogIn'>Log in</button>
                 </div>
             </form>
             </div>
